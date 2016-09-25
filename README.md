@@ -1,0 +1,2 @@
+# fictionalServer
+A fiction Server
