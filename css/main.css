@@ -52,7 +52,7 @@ a:hover, a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url("img/background.gif");
+    background: url("/img/background.gif");
     background-color: black;
     background-size: auto;
     -webkit-background-size: cover;
