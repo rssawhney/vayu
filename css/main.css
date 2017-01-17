@@ -49,7 +49,7 @@ a:hover, a:focus {
     display: table;
     width: 100%;
     height: 100%;
-    padding: 100px 0;
+    padding: 0;
     text-align: center;
     color: white;
     background: url("../img/background.gif");
@@ -66,26 +66,21 @@ a:hover, a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
-    /*text-shadow: 7px 7px 5px #000;*/
+    font-size: 100px;
+    text-shadow: 7px 7px 5px #000;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 24px;
+    color: #000;
+    /*text-shadow: 1px 1px #fff;*/
 }
 
 @media (min-width: 768px) {
-  .intro {
-    height: 100%;
-    padding: 0;
-  }
-  .intro .intro-body .brand-heading {
-    font-size: 100px;
-    text-shadow: 7px 7px 5px #000;
-  }
   .intro .intro-body .intro-text {
-    font-size: 26px;
-    text-shadow: 2px 2px 5px #000;
+    font-size: 32px;
+    color: #000;
+    /*text-shadow: 1px 1px #fff;*/
   }
 }
 .btn {
